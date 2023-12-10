@@ -20,10 +20,7 @@ export const Task = ({
       className="flex items-center gap-x-2 w-full  py-2 sm:py-1.5 "
       onClick={() => handleCheckboxChange(stageId, taskId)}
     >
-      <Checkbox
-        onCheckedChange={() => handleCheckboxChange(stageId, taskId)}
-        checked={taskCompleted}
-      />
+      <Checkbox checked={taskCompleted} />
       <p>{taskName}</p>
     </button>
   );
