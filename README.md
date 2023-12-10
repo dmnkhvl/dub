@@ -1,6 +1,6 @@
 # Dub
 
-This app was built with [React](https://react.dev) & [TypeScript](https://www.typescriptlang.org/)
+was built with [React](https://react.dev) & [TypeScript](https://www.typescriptlang.org/)
 
 Styled with [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
 
