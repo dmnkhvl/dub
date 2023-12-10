@@ -1,11 +1,28 @@
 # Dub
 
-To build this app I used [React](https://react.dev) with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/) for styling. 
+This app was built with [React](https://react.dev) & [TypeScript](https://www.typescriptlang.org/)
 
-## If you want to run app locally
+Styled with [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
 
-1. Clone this repo to your local folder
-2. Make sure to install the dependencies
+## Local development setup
+
+### Clone this repo to your local folder 
+Using command line clone this repo to your local machine.
+
+```bash
+# SSH
+git clone git@github.com:dmnkhvl/dub.git
+
+# HTTPS
+git clone https://github.com/dmnkhvl/dub.git
+```
+
+
+
+### Install the dependencies
+
+Make sure to install depenecies based on what package manager you prefer 
+
 ```bash
 # yarn
 yarn install
@@ -17,11 +34,23 @@ npm install
 pnpm install
 ```
 
+When the dependencies are installed you're app is ready! 
+
+
 ## Development Server
 
-Start the development server on http://localhost:3000
+
+To start local development server run this command
 
 ```bash
+# yarn
+yarn dev
+
+# npm
 npm run dev
+
+# pnpm
+pnpm dev
 ```
 
+### dmnkhvl.
