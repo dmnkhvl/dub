@@ -17,13 +17,16 @@ export const Task = ({
   taskCompleted,
 }: TaskProps) => {
   return (
-    <div className="flex items-center gap-x-2">
+    <button
+      className="flex items-center gap-x-2"
+      onClick={() => handleCheckboxChange(stageId, taskId)}
+    >
       <Checkbox
         onCheckedChange={() => handleCheckboxChange(stageId, taskId)}
         checked={taskCompleted}
       />
       <p>{taskName}</p>
-    </div>
+    </button>
   );
 };
 
