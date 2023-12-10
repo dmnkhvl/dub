@@ -2,12 +2,13 @@
 
 was built with [React](https://react.dev) & [TypeScript](https://www.typescriptlang.org/)
 
-Styled with [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/)
+and styled with [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/).
 
 ## Local development setup
+To run this app on your local machine please follow next steps.
 
-### Clone this repo to your local folder 
-Using command line clone this repo to your local machine.
+### 1. Clone this repo to your local folder 
+Using command line clone this repo to folder of your selection.
 
 ```bash
 # SSH
@@ -18,9 +19,7 @@ git clone https://github.com/dmnkhvl/dub.git
 ```
 
 
-
-### Install the dependencies
-
+### 2. Install the dependencies
 Make sure to install depenecies based on what package manager you prefer 
 
 ```bash
@@ -34,13 +33,13 @@ npm install
 pnpm install
 ```
 
-When the dependencies are installed you're app is ready! 
+When the dependencies are installed you're app is fully installed! 
 
 
 ## Development Server
 
 
-To start local development server run this command
+To start the app you need to run one of these commands
 
 ```bash
 # yarn
@@ -53,4 +52,4 @@ npm run dev
 pnpm dev
 ```
 
-### dmnkhvl.
+### DUBÁČIK
