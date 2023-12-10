@@ -4,7 +4,7 @@ was built with [React](https://react.dev) & [TypeScript](https://www.typescriptl
 
 and styled with [Tailwind CSS](https://tailwindcss.com/) & [shadcn/ui](https://ui.shadcn.com/).
 
-Try demo at [https://dub-kappa-hazel.vercel.app/]([url](https://dub-kappa-hazel.vercel.app/))
+Try demo at [https://dub-kappa-hazel.vercel.app/]((https://dub-kappa-hazel.vercel.app/))
 
 ## Local development setup
 To run this app on your local machine please follow next steps.
