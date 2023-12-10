@@ -1,4 +1,3 @@
-// Task.tsx
 import { Checkbox } from "@/components/ui/checkbox.tsx";
 
 export interface TaskProps {
@@ -18,7 +17,7 @@ export const Task = ({
 }: TaskProps) => {
   return (
     <button
-      className="flex items-center gap-x-2"
+      className="flex items-center gap-x-2 w-full"
       onClick={() => handleCheckboxChange(stageId, taskId)}
     >
       <Checkbox
