@@ -13,7 +13,7 @@ const StageLocked: React.FC<StageLockedProps> = ({ stageIndex }) => {
         <p className="text-sm text-white/90">
           Complete{" "}
           <span className="uppercase tracking-wider text-xs font-bold text-white">
-            PHASE {stageIndex}{" "}
+            STAGE {stageIndex}{" "}
           </span>
           to unlock
         </p>
