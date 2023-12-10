@@ -19,7 +19,7 @@ const TaskList: React.FC<TaskListProps> = ({
   const taskClass: string =
     stageStatus == StageStatus.Unlocked ? "" : "opacity-20";
   return (
-    <div className={`flex flex-col gap-y-2 mt-2 p-2 ${taskClass}`}>
+    <div className={`flex flex-col mt-3 sm:mt-2 px-2 ${taskClass}`}>
       {data.map((task) => (
         <div className="flex gap-x-2">
           <Task

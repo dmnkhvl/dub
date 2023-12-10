@@ -17,7 +17,7 @@ export const Task = ({
 }: TaskProps) => {
   return (
     <button
-      className="flex items-center gap-x-2 w-full"
+      className="flex items-center gap-x-2 w-full  py-2 sm:py-1.5 "
       onClick={() => handleCheckboxChange(stageId, taskId)}
     >
       <Checkbox
